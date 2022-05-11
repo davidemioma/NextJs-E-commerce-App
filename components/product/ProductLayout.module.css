@@ -1,0 +1,13 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  .layout {
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+  }
+}

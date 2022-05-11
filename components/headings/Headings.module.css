@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.content {
+  text-align: center;
+  color: #324d67;
+}
+
+.content h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.content p {
+  font-size: 16px;
+  font-weight: 200;
+}

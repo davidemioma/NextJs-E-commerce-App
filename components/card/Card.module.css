@@ -1,0 +1,79 @@
+.container {
+  background-color: white;
+  height: 75vh;
+}
+
+.card {
+  width: 100%;
+  margin: auto;
+  margin-top: 160px;
+  background-color: #dcdcdc;
+  padding: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon {
+  color: green;
+  font-size: 40px;
+}
+
+.card h2 {
+  text-transform: capitalize;
+  margin-top: 15px 0px;
+  font-weight: 900;
+  font-size: 20px;
+  color: #324d67;
+}
+
+.email_msg {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.description .email {
+  margin-left: 5px;
+  color: #f02d34;
+}
+
+.btn {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 12px;
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  background-color: #f02d34;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1, 1.1);
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 80%;
+  }
+
+  .card h2 {
+    font-size: 40px;
+  }
+}
